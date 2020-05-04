@@ -1,0 +1,24 @@
+{
+  "name": "chatsimple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress -p",
+    "watch": "webpack --progress --watch",
+    "server": "webpack-dev-server --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "install": "^0.13.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "firebase": "^7.14.2"
+  }
+}
