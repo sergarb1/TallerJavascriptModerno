@@ -1,5 +1,4 @@
-alert("hola");
-/*
+
 class Rectangulo {
     constructor(alto, ancho) {
       this.alto = alto;
@@ -12,4 +11,3 @@ class Rectangulo {
 const cuadrado = new Rectangulo (10, 10);
 const sumar = (a, b) => a + b;
 alert(sumar(cuadrado.area,3));
-*/
